@@ -1,0 +1,10 @@
+spring:
+  main:
+    banner-mode: off
+logging:
+  level:
+    io.spring.concourse: DEBUG
+sonatype:
+  exclude:
+    - 'build-info\.json'
+    - '.*\.zip'
